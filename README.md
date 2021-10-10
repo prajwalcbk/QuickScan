@@ -20,7 +20,7 @@ Finally it will Generate report after scanning all the Web pages inside the targ
 
 # Requirements : 
 * Python3
-* ping (net-tools)
+* ping (iputils-ping)
 * requests
 * termcolor
 * bs4
