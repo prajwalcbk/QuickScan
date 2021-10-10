@@ -1,0 +1,288 @@
+body{
+	background-color: #e6e6e6;
+}
+h1{
+	text-align: center;
+	color: blue;
+	font-family: Do Hyeon, sans-serif;
+	cursor: default;
+}
+h2{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -30px;
+	font-size: 0.9em;
+	color:blue;
+	border-bottom: 2px solid blue;
+	width:200px;
+	text-align: center;
+	cursor: default;
+	cursor: default;
+}
+h3{
+	text-align: center;
+	cursor: default;
+}
+.t1{
+	border-collapse: collapse;
+	min-width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+.t1 thead tr{
+	background-color: blue;
+	color: #ffffff;
+	text-align:left;
+	font-weight: bold;
+}
+.t1 th, .t1 tr{
+	padding:3px 15px;
+	border:1px dotted red;
+}
+.t1 tbody tr,
+.t2 tbody, tr{
+	border:1px solid #dddddd;
+}
+.t1 tbody tr:nth-of-type(even),
+.t2 tbody tr:nth-of-type(even){
+	background-color: #f3f3f3;
+}
+.t1, .t2 tbody tr:last-of-type{
+	border-bottom: 2px solid blue;
+}
+.t1 td:nth-child(2n+2){
+	text-align: center;
+	border-left: 1px solid blue;
+}
+.t2{
+	border-collapse: collapse;
+	min-width: 85%;
+	max-width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	font-size: 0.8em;
+}
+.t2 td:nth-child(2n+1){
+	font-weight: bold;
+}
+.t2-red thead tr{
+	background-color: red;
+	color:white;
+}
+.t2-red tbody tr:last-of-type{
+	border-bottom: 2px solid red;
+}
+.t2-red td:nth-child(2n+2){
+	border-left: 1px solid red;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+.t2-red td:nth-child(2n+1){
+	min-width: 100px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+.t2-orange thead tr{
+	background-color: orange;
+	color:white;
+}
+.t2-orange tbody tr:last-of-type{
+	border-bottom: 2px solid orange;
+}
+.t2-orange td:nth-child(2n+2){
+	border-left: 1px solid orange;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+.t2-orange td:nth-child(2n+1){
+	min-width: 100px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+.t2-yellow thead tr{
+	background-color: #ffbf00;
+	color:white;
+}
+.t2-yellow tbody tr:last-of-type{
+	border-bottom: 2px solid #ffbf00;
+}
+.t2-yellow td:nth-child(2n+2){
+	border-left: 1px solid #ffbf00;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+.t2-yellow td:nth-child(2n+1){
+	min-width: 100px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+h5{
+	text-align: right;
+	font-size: 0.5em;
+	cursor: default;
+}
+h4{
+	text-align: center;
+	font-size: 1.5em;
+	border-bottom: 2px solid blue;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	cursor: default;
+}
+.t1-extend{
+	min-width: 450px;
+}
+.t1-extend a{
+	color: blue;
+	text-decoration-line: none;
+}
+.t1-extend a:hover{
+	color: red;
+}
+.t1-extend a:active{
+	color: green;
+}
+.t1-extend td:nth-child(2n+2){
+	text-align: left;
+}
+/*------Target Url's----------*/
+.h4-turl{
+	width: 125px;
+	border-bottom: 2px dashed blue;
+}
+.t1-Turls{
+	margin-bottom: 20px;
+	width: 1000px;
+}
+.t1-Turls th{
+	text-align: center;
+}
+.t1-Turls a{
+	color: blue;
+	text-decoration-line: none;
+}
+.t1-Turls a:hover{
+	color: red;
+}
+.t1-Turls a:active{
+	color: black;
+}
+.t1-Turls a:visited{
+	color: green;
+}
+.btn a{
+	color: white;
+	border-radius: 7px;
+	font-size: 1.3em;
+	padding: 5px;
+	text-decoration-line: none;
+	font-weight: bold;
+	background-color: blue;
+}
+.btn a:hover{
+	background-color: #eba134;
+	border-color: #eba134;
+	transition: 0.7s;
+}
+/*-----Local Images---------*/
+.h4-localimg{
+	width: 140px;
+	border-bottom: 2px dashed blue;
+}
+.t1-localimg{
+	margin-bottom: 20px;
+	width: 1000px;
+}
+.t1-localimg th{
+	text-align: center;
+}
+.t1-localimg a{
+	color: blue;
+	text-decoration-line: none;
+}
+.t1-localimg a:hover{
+	color: red;
+}
+.t1-localimg a:active{
+	color: black;
+}
+/*-----Internet Images---------*/
+.h4-internetimg{
+	width: 165px;
+	border-bottom: 2px dashed blue;
+}
+.t1-localimg{
+	margin-bottom: 20px;
+	width: 1000px;
+}
+.t1-localimg th{
+	text-align: center;
+}
+.t1-localimg a{
+	color: blue;
+	text-decoration-line: none;
+}
+.t1-localimg a:hover{
+	color: red;
+}
+.t1-localimg a:active{
+	color: black;
+}
+/*------------------------------*/
+.h3-red{
+	color: red;
+}
+.h4-yellow{
+	/*color: yellowgreen;*/
+	color: black;
+	border-bottom: 2px solid black;
+}
+.t1-yellow th{
+	background-color: yellow;
+	/*color: yellowgreen;*/	
+}
+.h4-blue{
+	color: black;
+	border-bottom: 2px solid black;
+}
+.t1-red th{
+	background-color: red;
+	border-top: 1px dotted red;
+}
+.t1-red tbody tr:last-of-type{
+	border-bottom: 2px solid red;
+}
+.t1-red td:nth-child(2n+2){
+	border-left: 1px dotted red;
+}
+.t1-yellow th{
+	background-color: yellow;
+	border-top: 1px dotted yellow;
+}
+.t1-yellow tbody tr:last-of-type{
+	border-bottom: 2px solid yellow;
+}
+.t1-yellow td:nth-child(2n+2){
+	border-left: 1px dotted yellow;
+}
+.t1-yellow thead th:nth-child(2n+2){
+	border-left: 1px dotted yellow;
+}
+.t1-yellow th{
+	color: black;
+}
+.t1-yellow th{
+	border: 1px dotted yellow;
+}
+.t1-blue th{
+	border: 1px dotted blue;	
+}
