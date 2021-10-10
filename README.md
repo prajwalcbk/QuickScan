@@ -32,7 +32,7 @@ Finally it will Generate report after scanning all the Web pages inside the targ
 
     cd Quickscanner
 
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 
 # Usage
     python3 main.py
