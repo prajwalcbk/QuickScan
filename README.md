@@ -24,6 +24,8 @@ Finally it will Generate report after scanning all the Web pages inside the targ
 * requests
 * termcolor
 * bs4
+* parsel
+* dominate
 
 # Installation
     git clone https://github.com/prajwalcbk/QuickScan
