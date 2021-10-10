@@ -1,3 +1,5 @@
 requests
 termcolor
 bs4
+parsel
+dominate
