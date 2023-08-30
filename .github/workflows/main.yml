@@ -21,7 +21,7 @@ jobs:
       
   deploy_uat:
     needs: deploy_qa
-    if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.base.ref == 'master'
+    if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.base.ref == 'main'
     runs-on: ubuntu-latest
     
     steps:
