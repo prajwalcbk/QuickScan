@@ -1,0 +1,38 @@
+name: Deployment Workflow
+
+on:
+  push:
+    branches:
+      - development
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  deploy_qa:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
+    - name: Deploy to QA
+      run: |
+        echo "Got commit deploying new code"
+      env:
+        ENVIRONMENT: "QA"
+      
+  deploy_uat:
+    needs: deploy_qa
+    if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.base.ref == 'master'
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
+    - name: Deploy to UAT
+      run: |
+        # Your deployment commands here for UAT environment
+      env:
+        ENVIRONMENT: "UAT"
