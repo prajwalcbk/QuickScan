@@ -13,9 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-      
     - name: Deploy to QA
       run: |
         echo "Got commit deploying new code"
@@ -28,9 +25,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-      
     - name: Deploy to UAT
       run: |
         # Your deployment commands here for UAT environment
